@@ -1,0 +1,44 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[text={17cm,24cm}, top=3cm, left=2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[IL2]{fontenc}
+\usepackage[unicode]{hyperref}
+\usepackage[czech]{babel}
+\usepackage{times}
+\usepackage{picture}
+\begin{document}
+\begin{titlepage}
+\begin{center}
+\textsc{{\Huge Vysoké učení technické v Brně\\}
+        {\huge Fakulta informačních technologií\\}}
+\vspace{\stretch{0.382}}
+{\LARGE Typografie a publikování\,--\,4. projekt\\}
+{\Huge Bibliografické citace\\}
+\vspace{\stretch{0.618}}
+\end{center}
+\lineskip=1pt
+{\large \today \hfill Martina Zlevorová (xzlevo00)}
+\end{titlepage}
+
+\section{Úvod}
+\emph{\uv{Dějiny typografie ve vlastním slova smyslu začínají, když Johannes Gutenberg v 1444 vynalezl knihtisk}} \cite{Gorecka2012}. Za celých 500 let se sice vydávání knih posunulo o kus dál, vlastnosti písma se však nezměnily dodnes. Pouze se aktualizovaly základy, které položili Gutenbergovi vrstevníci. Například didotův bod, základní jednotka dnešní typografie, pochází z 18. století \cite{Bures2002}.
+\section{Základní parametry}
+Mezi vlastnosti písma, jež jsou běžnou součástí tvorby dokumentů patří:
+\subsection{Velikost}
+Stupeň písma je označení pro velikost písmen a pro pohodlné čtení se doporučují hodnoty 10\,--\,12 b \cite{Rybicka2003}.
+\subsection{Font}
+Nejvýznamnějším parametrem, určujícím styl jednotlivých písmen, je typ písma. Nejdůležitější kategorie písem jsou serifové a groteskové. Pro podrobnější rozdělení viz \cite{Sirucek2007}. Přestože jsou serify určené pro zjednoduššení čtení \cite{Jiricek2012}, jejich význam nebyl prokázán \cite{Arditi2005}.
+\subsection{Řez}
+Většina typů písem se vyskytuje ve dvou řezech - tučném a kurzívě. Tyto je ale třeba užívat s mírou, jelikož zhoršují čitelnost textu \cite{Danna2018}.
+\section{Editory}
+Existuje řada programů pro editaci textových dokumentů na počítači. Nejpoužívanější z nich, MS Word, má sice velmi jednoduché ovládání, nezaručuje ale takovou přesnost jako \LaTeX. Na této dvojici lze jasně vidět odraz dnešní doby, kdy je upřednostněna zdánlivá jednoduchost před kvalitou. Tato propast se ale s příručkami jako je \cite{Olsak2014} zmenšuje.
+\section{Význam typografie}
+Grafická úprava textu má zásadní vliv na extrakci informací. Je proto nutné dbát na kontext, do kterého je dokument určen, k zamyšlení viz \cite{Garfield2010}. Dále je třeba nezapomínat na hlavní funkci písma, která je informační, přestože by mnozí upřednostnili funkci estetickou jen proto, že se jim víc líbí. Proč to není dobrý nápad viz \cite{Bannister2017}.
+
+\begin{picture}(40,40)\put(20,20){\circle{20}}\put(0,0){\line(0,-1){5}}\put(20,23){\circle*{1}}\end{picture}
+\newpage
+\renewcommand{\refname}{Literatura} 
+\bibliographystyle{czechiso}
+\bibliography{proj4}
+
+\end{document}
